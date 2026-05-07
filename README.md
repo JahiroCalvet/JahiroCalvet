@@ -11,6 +11,7 @@ My work lives at the intersection of **rigorous mathematics**, **signal processi
 ## 🔭 What I'm working on
 
 - 🧠 **Recommendation System with RL** — end-to-end ML system combining tabular data, NLP embeddings, computer vision (CLIP), and a Thompson Sampling bandit for exploration/exploitation
+- 📊 **Financial Time Series** — ARMA modeling on Brazilian stocks (B3) with walk-forward validation and business communication
 - 🌊 **Seismic Time Series Analysis** — ML applied to seismic signal classification and pattern recognition
 - 🔬 **Seismic Imaging with Neural Networks** — applying deep learning to RTM migration and subsurface interpretation
 
@@ -28,6 +29,7 @@ My work lives at the intersection of **rigorous mathematics**, **signal processi
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![statsmodels](https://img.shields.io/badge/statsmodels-4C72B0?style=flat)
 
 **Scientific Computing**
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
@@ -69,6 +71,7 @@ Contributed to the development of an advanced numerical solver for Partial Diffe
 | [🔄 Seismic Format Converter](https://github.com/JahiroCalvet/seismic-format-converter) | CLI tool to convert between SU, SAC, SEG-Y and ASCII seismic formats | Python, ObsPy |
 | [🖥️ Seismic Format Converter GUI](https://github.com/JahiroCalvet/seismic-format-converter-gui) | Desktop GUI version — multilanguage, cross-platform | Python, PyQt6 |
 | [💰 OFX Cleaner](https://github.com/JahiroCalvet/ofx-cleaner-bb) | Financial data cleaner with interactive dashboard for transaction analysis | Python, pandas |
+| [📊 ARMA B3 Portfolio](https://github.com/JahiroCalvet/arma_b3_portfolio) | Financial time series analysis — AR(2) and ARMA(p,q) on PETR4 & VALE3 with walk-forward validation and business reporting | Python, statsmodels, pandas |
 | 🤖 RecSys + RL *(coming soon)* | Recommendation system with NLP, computer vision and reinforcement learning | PyTorch, CLIP, Transformers |
 | 📈 Seismic Time Series *(coming soon)* | ML applied to seismic signal classification | PyTorch, SciPy |
 
