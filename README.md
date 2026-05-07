@@ -41,6 +41,26 @@ My work lives at the intersection of **rigorous mathematics**, **signal processi
 
 ---
 
+## 💼 Research Experience
+
+**PhD Researcher — Seismic Wave Modeling & Geophysical Applications**
+*COPPE/UFRJ · COPPETEC · 2020–2025*
+
+Developed and applied numerical methods for seismic wave propagation modeling with direct industry applications in oil & gas exploration. Work included:
+- Seismic wave propagation analysis using **FWI (Full Waveform Inversion)**, **H/V spectral ratio**, and **RTM (Reverse Time Migration)**
+- Subsurface characterization for extractable resource identification (oil, gas)
+- Implementation and validation of numerical solvers for wave equations in geophysically realistic models
+
+**MSc Researcher — PDE Solver Development (acquired by Petrobras)**
+*COPPE/UFRJ · COPPETEC · 2019–2021*
+
+Contributed to the development of an advanced numerical solver for Partial Differential Equations in 3D domains — a COMSOL/Mathematica-level tool built at UFRJ. The solver was **acquired by Petrobras** for internal use in their engineering workflows. Responsibilities included:
+- Implementing and validating solutions for diverse classes of PDEs
+- Producing technical documentation and application examples
+- Contributing to the comprehensive solver manual demonstrating its capabilities
+
+---
+
 ## 📂 Projects
 
 | Project | Description | Stack |
