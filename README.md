@@ -1,106 +1,50 @@
-# Hi, I'm Jahiro 👋
+# Jahiro Damian Miranda Calvet
 
-**Computational Scientist · Data Analyst · Scientific ML Engineer**
+**Computational Geophysicist** · PhD Candidate, COPPE/UFRJ · Software Developer
 
-I'm a physicist and PhD candidate at COPPE/UFRJ (Computational Geophysics) who builds things that process, model, and make sense of complex data — from seismic waves underground to neural networks making decisions.
+[LinkedIn](https://linkedin.com/in/jahirodmc) · [Website](https://jahirocalvet.github.io) · calvetjah@gmail.com
 
-My work lives at the intersection of **rigorous mathematics**, **signal processing**, and **applied machine learning**. I don't just use models — I understand why they work.
-
----
-
-## 🔭 What I'm working on
-
-- 🧠 **Recommendation System with RL** — end-to-end ML system combining tabular data, NLP embeddings, computer vision (CLIP), and a Thompson Sampling bandit for exploration/exploitation
-- 📊 **Financial Time Series** — ARMA modeling on Brazilian stocks (B3) with walk-forward validation and business communication
-- 🌊 **Seismic Time Series Analysis** — ML applied to seismic signal classification and pattern recognition
-- 🔬 **Seismic Imaging with Neural Networks** — applying deep learning to RTM migration and subsurface interpretation
+I work at the intersection of computational geophysics and software engineering. My main differential is seismic interferometry and wave-equation modeling (FWI/RTM — familiar with the theory and with implementing solvers from scratch, not claiming production-grade expertise); software (backend, ML, full-stack) is the toolset I use to build and ship that work.
 
 ---
 
-## 🛠️ Tech Stack
+## 🌍 Geophysics
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-121011?style=flat&logo=gnu-bash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+Curated projects in seismic modeling, imaging, and format handling.
 
-**ML & Data Science**
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![statsmodels](https://img.shields.io/badge/statsmodels-4C72B0?style=flat)
+- **[nanduti-fwi](https://github.com/JahiroCalvet/nanduti-fwi)** — 2D acoustic Full Waveform Inversion built from scratch: 4th-order FDTD, PML boundaries, adjoint-state gradient.
+- **[UkhuLab](https://github.com/JahiroCalvet/UkhuLab)** — Reverse Time Migration (RTM) implemented in Fortran 90, FDTD forward/backward propagation.
+- **[seismiclab](https://github.com/JahiroCalvet/seismiclab)** — 2D geophysical modeling & seismic simulation GUI (FDTD + RTM).
+- **[GPRStudio](https://github.com/JahiroCalvet/GPRStudio)** — Ground Penetrating Radar (GPR) data processing, inspired by and built on GPRPy.
+- **[seismic-format-converter](https://github.com/JahiroCalvet/seismic-format-converter)** / **[GUI version](https://github.com/JahiroCalvet/seismic-format-converter-gui)** — CLI and desktop tools to convert between SU, SAC, SEG-Y and ASCII seismic formats.
+- **[reservoir-optimizer](https://github.com/JahiroCalvet/reservoir-optimizer)** — Bayesian optimization applied to oil reservoir parameters (FastAPI + scikit-optimize).
+- **[oilwell-monitor](https://github.com/JahiroCalvet/oilwell-monitor)** — Cloud-native full-stack platform for remote monitoring of oil wells.
 
-**Scientific Computing**
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
-![ObsPy](https://img.shields.io/badge/ObsPy-grey?style=flat)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-white?style=flat&logo=matplotlib)
+## 🤖 AI / Data Science
 
-**Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat&logo=neovim&logoColor=white)
-![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat&logo=qt&logoColor=white)
+- **[reservoir-optimizer](https://github.com/JahiroCalvet/reservoir-optimizer)** — Bayesian optimization of oil reservoir parameters (FastAPI + scikit-optimize).
+- **[stock-forecasting-arma-b3](https://github.com/JahiroCalvet/stock-forecasting-arma-b3)** — Financial time series forecasting with ARMA models on Brazilian (B3) stocks.
+- **[opt-inventory](https://github.com/JahiroCalvet/opt-inventory)** — Data analysis exercise on inventory distribution logistics for retail chains.
+- **[network-analysis-devs](https://github.com/JahiroCalvet/network-analysis-devs)** — Network analysis exercise / data science case study.
 
----
+## 🛠️ Software Engineering
 
-## 💼 Research Experience
+- **[oilwell-monitor](https://github.com/JahiroCalvet/oilwell-monitor)** — Cloud-native full-stack well monitoring platform: Java 21, Spring Boot 3, Kafka, React, Kubernetes.
 
-**PhD Researcher — Seismic Wave Modeling & Geophysical Applications**
-*COPPE/UFRJ · COPPETEC · 2020–2025*
+## 🧮 General Science
 
-Developed and applied numerical methods for seismic wave propagation modeling with direct industry applications in oil & gas exploration. Work included:
-- Seismic wave propagation analysis using **FWI (Full Waveform Inversion)**, **H/V spectral ratio**, and **RTM (Reverse Time Migration)**
-- Subsurface characterization for extractable resource identification (oil, gas)
-- Implementation and validation of numerical solvers for wave equations in geophysically realistic models
+Notes, modeling exercises and reproductions from math/physics books and courses. *(Coming soon.)*
 
-**MSc Researcher — PDE Solver Development (acquired by Petrobras)**
-*COPPE/UFRJ · COPPETEC · 2019–2021*
+## 🎲 Miscellaneous
 
-Contributed to the development of an advanced numerical solver for Partial Differential Equations in 3D domains — a COMSOL/Mathematica-level tool built at UFRJ. The solver was **acquired by Petrobras** for internal use in their engineering workflows. Responsibilities included:
-- Implementing and validating solutions for diverse classes of PDEs
-- Producing technical documentation and application examples
-- Contributing to the comprehensive solver manual demonstrating its capabilities
+- **[ofx-cleaner-bb](https://github.com/JahiroCalvet/ofx-cleaner-bb)** — Pre-processes OFX bank statement exports so downstream accounting tools (e.g. Contas Online) can import them without balance mismatches.
 
 ---
 
-## 📂 Projects
+### Tech stack
 
-| Project | Description | Stack |
-|---|---|---|
-| [🌊 SeismicLab](https://github.com/JahiroCalvet/seismiclab) | 2D seismic wave propagation simulator with FDTD modeling and RTM migration — interactive GUI | Python, PyQt6, NumPy |
-| [🔄 Seismic Format Converter](https://github.com/JahiroCalvet/seismic-format-converter) | CLI tool to convert between SU, SAC, SEG-Y and ASCII seismic formats | Python, ObsPy |
-| [🖥️ Seismic Format Converter GUI](https://github.com/JahiroCalvet/seismic-format-converter-gui) | Desktop GUI version — multilanguage, cross-platform | Python, PyQt6 |
-| [💰 OFX Cleaner](https://github.com/JahiroCalvet/ofx-cleaner-bb) | Financial data cleaner with interactive dashboard for transaction analysis | Python, pandas |
-| [📊 ARMA B3 Portfolio](https://github.com/JahiroCalvet/arma_b3_portfolio) | Financial time series analysis — AR(2) and ARMA(p,q) on PETR4 & VALE3 with walk-forward validation and business reporting | Python, statsmodels, pandas |
-| 🤖 RecSys + RL *(coming soon)* | Recommendation system with NLP, computer vision and reinforcement learning | PyTorch, CLIP, Transformers |
-| 📈 Seismic Time Series *(coming soon)* | ML applied to seismic signal classification | PyTorch, SciPy |
+`Python` · `Java 21` · `Fortran 90` · `C/C++` · `TypeScript` · `SQL` · PyTorch/NumPy/SciPy/pandas · Spring Boot · Kafka · FastAPI · React · Angular · Docker · Kubernetes
 
----
+### Publications
 
-## 🧬 Background
-
-- 🎓 **PhD Candidate** — Computational Geophysics, COPPE/UFRJ (Brazil)
-- 🎓 **MSc** — Computational Mechanics, COPPE/UFRJ (2016–2018)
-- 🎓 **Graduate Studies** — Geophysics & Seismology, University of São Paulo (2013–2015)
-- 🎓 **Licenciatura in Physics** — equiv. BSc + Teaching Certification, Universidad Mayor de San Andrés, Bolivia
-- 📡 Built end-to-end seismic data pipelines for HPC clusters
-- 🔭 Former astronomy instructor and Olympic team coach (Bolivia)
-- ✍️ 35+ science outreach publications
-
----
-
-## 📊 GitHub Stats
-
-![Jahiro's GitHub stats](https://github-readme-stats.vercel.app/api?username=JahiroCalvet&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JahiroCalvet&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
-## 📫 Let's connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jahirodmc)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:calvetjah@gmail.com)
-
----
-
-*Open to remote opportunities in ML Engineering, Data Science, and Scientific Computing.*
+Miranda Calvet & Mansur (2018), *Revista Boliviana de Física* (SciELO)
