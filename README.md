@@ -29,6 +29,7 @@ Curated projects in seismic modeling, imaging, and format handling.
 
 ## 🛠️ Software Engineering
 
+- **[local-ai-agents](https://github.com/JahiroCalvet/local-ai-agents)** — RAG pipeline, LangChain, LangGraph and AI Agents running locally with Ollama — zero API cost.
 - **[oilwell-monitor](https://github.com/JahiroCalvet/oilwell-monitor)** — Cloud-native full-stack well monitoring platform: Java 21, Spring Boot 3, Kafka, React, Kubernetes.
 
 ## 🧮 General Science
